@@ -5,8 +5,8 @@ import { Recipe } from './../recipes/recipe.model';
 
 @Injectable()
 export class DataSercice {
- // api_url: string = 'http://localhost/rest_api/recipe/api.php';
-  api_url: string = 'http://cloud-server.site11.com/rest_api/recipe/api.php';
+  api_url: string = 'http://localhost/rest_api/recipe/api.php';
+
 
 
   constructor(private http: Http) { }
